@@ -1,6 +1,6 @@
 // src/index.test.ts
 import request from 'supertest';
-import app from './index'; // Import the Express application
+import app from '../index'; // Import the Express application
 
 jest.mock('pg', () => {
     const mPool = {
